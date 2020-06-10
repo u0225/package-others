@@ -27,7 +27,7 @@ endif
 
 PKG_NAME:=syncthing
 PKG_VERSION:=v1.6.1
-PKG_RELEASE:=2
+PKG_RELEASE:=1
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_NAME)-linux-$(PKG_ARCH_SYNCTHING)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/syncthing/syncthing/releases/download/$(PKG_VERSION)
